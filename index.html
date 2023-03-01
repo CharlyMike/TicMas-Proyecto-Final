@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Mi CV</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <!-- Menu Header -->
+
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">CM</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre Mi</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Portfolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook"></i>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i>
+                <a href="#"><i class="fa-brands fa-youtube"></i>
+                <a href="#"><i class="fa-brands fa-linkedin"></i>
+            </div>
+
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- Seccion Inicio -->
+
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="images/yo.png" alt="">
+            </div>
+            <h1>Cristian Mariño</h1>
+            <h2>Desarrollador Web</h2>
+        </div>
+    </section>
+
+    <!-- Seccion Sobre mí -->
+
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-sobremi">
+            <h2>Sobre mí</h2>
+            <p><span>Hola, Me llamo Cristian Mariño </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+
+            <div class="fila">
+                <!-- Datos Personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            13-02-1979
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            123-456-7890
+                        </li>
+                        <li>
+                            <strong>Correo</strong>
+                            ejemplo@email.com
+                        </li>
+                        <li>
+                            <strong>Página Web</strong>
+                            ejemplo.com.ar
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            123 Mendoza, Argentina
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="enviarcv">
+            <a href="https://www.linkedin.com/in/cristian-mari%C3%B1o-387065262/" target="_blank">
+                <button class="glow-on-hover" type="button">DESCARGAR CV</button></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion Portfolio -->
+
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Portfolio</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a href="https://radiobrava.net/" title="Radio Brava 104.7mhz" target="_blank"><img src="images/proyecto1.jpg" alt="" /></a>
+                    <div class="overlay">
+                      <h3>Radio Brava 104.7mhz</h3>
+                      <p>Proyecto creado con Adobe Muse en 2019</p>
+                   </div>
+                </div>
+                <div class="proyecto">
+                    <a href="https://tecnicosaurios.com/donaciones.html" title="Tecnicosaurios" target="_blank"><img src="images/proyecto2.jpeg" alt="" /></a>
+                    <div class="overlay">
+                      <h3>Tecnicosaurios</h3>
+                      <p>Diseñado en 2011 con Adobe Dreamweaver</p>
+                   </div>
+                </div>
+                <div class="proyecto">
+                    <a title="" href="#"><img src="images/proyecto3.jpeg" alt="" /></a>
+                    <div class="overlay">
+                      <h3>Diseño Creativo</h3>
+                      <p>Ejemplo</p>
+                   </div>
+                </div>
+                <div class="proyecto">
+                    <a title="" href="#"><img src="images/proyecto4.jpeg" alt="" /></a>
+                    <div class="overlay">
+                      <h3>Diseño Creativo</h3>
+                      <p>Ejemplo</p>
+                   </div>
+                </div>
+                <div class="proyecto">
+                    <a title="" href="#"><img src="images/proyecto5.jpeg" alt="" /></a>
+                    <div class="overlay">
+                      <h3>Diseño Creativo</h3>
+                      <p>Ejemplo</p>
+                   </div>
+                </div>
+                <div class="proyecto">
+                    <a title="" href="#"><img src="images/proyecto6.jpeg" alt="" /></a>
+                    <div class="overlay">
+                      <h3>Diseño Creativo</h3>
+                      <p>Ejemplo</p>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion Contacto -->
+
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Teléfono">
+                    <input type="text" placeholder="Correo Electrónico">
+                    <input type="text" placeholder="Asunto">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button class="glow-on-hover" type="button">ENVIAR MENSAJE</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion Footer -->
+
+    <footer class="footer-principal">
+
+        <div class="footer-redes">
+  
+            <a href="#"><i class="fa-brands fa-facebook"></i>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i>
+            <a href="#"><i class="fa-brands fa-youtube"></i>
+            <a href="#"><i class="fa-brands fa-linkedin"></i>
+  
+        </div>
+  
+        <div class="footer">
+  
+          <p class="footer-nav">
+            <a href="#inicio">Inicio</a>
+                <a href="#sobremi">Sobre mí</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contacto">Contacto</a>
+          </p>
+  
+          <p>Cristian Mariño &copy; 2023</p>
+        </div>
+  
+      </footer>
+
+      <script src="js/scrip.js"></script>
+
+</body>
+</html>
