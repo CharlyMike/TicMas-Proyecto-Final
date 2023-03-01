@@ -148,8 +148,7 @@ html{
     display: flex;
 }
 
-.sobremi .fila .col
-{
+.sobremi .fila .col{
     width: 50%;
 }
 
@@ -442,6 +441,10 @@ html{
     color: inherit;
     transition: ease .25s;
   }
+
+  .footer .footer-nav a:hover{
+    color: #b0ca19;
+  }
   
   .footer-principal .footer-nav a:before {
     content: "·";
@@ -478,7 +481,7 @@ html{
   
   .footer-principal .footer-redes a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
   
-  .footer-principal p.footer-nav a:hover{text-decoration:underline;}
+  .footer-principal p.footer-nav a:hover{text-decoration:none;}
   
   /* Media Queries */
   
