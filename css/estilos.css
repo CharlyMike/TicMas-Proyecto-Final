@@ -118,6 +118,8 @@ html{
 /* Seccion Sobre Mí */
 
 .sobremi{
+    background: linear-gradient(to top, rgba(30, 35, 38, 0.945), rgba(30,35,38,1)),
+    url(../images/sobremi.jpg);
     background-color: #1e2326;
     color: #fff;
     padding: 50px 20px;
@@ -409,7 +411,7 @@ html{
 /* Seccion Footer */
 
 .footer-principal {
-    background-color: #292c2f;
+    background-color: #080808;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
