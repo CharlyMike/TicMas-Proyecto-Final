@@ -32,11 +32,23 @@ html{
     padding: 15px 20px;
 }
 
-.contenedor-header header .logo a{
+.contenedor-header header h1{
     font-family: "Nothing You Could Do";
     font-size: 40px;
     color: #b0ca19;
     text-decoration: none;
+}
+
+.contenedor-header header h1::before{
+    content: attr(REFL-TEXT);
+    position: absolute;
+    top: 0;
+    left: 56;
+    transform: rotateX(180deg);
+    line-height: 39px;
+    transform-origin: bottom;
+    background: linear-gradient(to top, #fff);
+    opacity: 10%;
 }
 
 .contenedor-header ul{
@@ -72,7 +84,7 @@ html{
     height: 35px;
     background-color: #33383b00;
     border-radius: 50px;
-    font-size: 20px;
+    font-size: 50px;
     color: #ffffff;
     text-align: center;
     line-height: 35px;
@@ -981,7 +993,7 @@ html{
 /* Seccion Footer */
 
 .footer-principal {
-    background-color: #292c2f;
+    background-color: #191a1d;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
@@ -1031,13 +1043,13 @@ html{
     content: none;
   }
   
-  .footer-principal .footer-redes {
+  .footer-principal .redes {
     float: right;
     margin-top: 6px;
     max-width: 180px;
   }
   
-  .footer-principal .footer-redes a {
+  .footer-principal .redes a {
     display: inline-block;
     width: 35px;
     height: 35px;
@@ -1051,17 +1063,17 @@ html{
     transition:all .25s;
   }
   
-  .footer-principal .footer-redes a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+  .footer-principal .redes a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
   
   .footer-principal p.footer-nav a:hover{text-decoration:none;}
   
   /* Media Queries */
   
   @media (max-width: 600px) {
-    .footer-principal .footer, .footer-principal .footer-redes {
+    .footer-principal .footer, .footer-principal .redes {
       text-align: center;
     }
-    .footer-principal .footer-redes {
+    .footer-principal .redes {
       float: none;
       margin: 0 auto 20px;
     }
