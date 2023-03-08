@@ -111,13 +111,13 @@ html{
 
 .inicio .contenido img{
     margin-top: 30px;
-    border: 8px solid #b0ca19;
+    border: 4px solid #b0ca19;
     width: 40%;
     margin: auto;
     display: block;
     border-radius: 80%;
 	animation: glow-img 2s infinite alternate;
-	-webkit-animation: glow-img 2s infinite alternate;
+	-webkit-animation: glow-img 3s infinite alternate;
 	-moz-animation: glow-img 2s infinite alternate;
 	-o-animation: glow-img 2s infinite alternate;
 	-ms-animation: glow-img 2s infinite alternate;
@@ -128,12 +128,12 @@ html{
       box-shadow: 0 0 10px -10px #b0ca19;
     }
     to {
-      box-shadow: 0 0 15px 11px #5e6b10;
+      box-shadow: 0 0 15px 11px #b0ca19;
     }
   }
 
 .inicio .contenido h1{
-    font-size: 30px;
+    font-size: 35px;
     font-family: "Nothing You Could Do";
     text-align: center;
 }
