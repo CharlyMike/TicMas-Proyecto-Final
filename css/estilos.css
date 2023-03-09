@@ -173,7 +173,7 @@ html{
     margin-bottom: 20px;
 }
 
-.sobremi .contenido-sobremi p span{
+.sobremi .contenido-sobremi p strong{
     color: #b0ca19;
     font-weight: bold;
 }
